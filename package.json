@@ -1,7 +1,24 @@
 {
   "name": "vitepress-plugin-code-group",
-  "private": false,
-  "version": "0.0.1",
+  "description": "vitepress-plugin-code-group",
+  "keywords": [
+    "vitepress-plugin",
+    "vitepress",
+    "plugin",
+    "codeGroup",
+    "code-group"
+  ],
+  "homepage": "https://github.com/berber1016/vitepress-plugin-code-group",
+  "bugs": {
+    "url": "https://github.com/berber1016/vitepress-plugin-code-group/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berber1016/vitepress-plugin-code-group.git"
+  },
+  "license": "MIT",
+  "author": "berber1016",
+  "version": "0.1.0",
   "files": [
     "dist"
   ],
