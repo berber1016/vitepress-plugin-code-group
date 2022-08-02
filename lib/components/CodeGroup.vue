@@ -105,7 +105,8 @@ export default defineComponent({
 
               return h(
                 'li',
-                { class: 'code-group__li' },
+                { class: 'code-group__li',style:'margin-top:0px' },
+
                 h(
                   'button',
                   {
@@ -152,10 +153,10 @@ export default defineComponent({
 }
 
 .code-group__ul {
-  margin: auto 0;
-  padding-left: 0;
+  margin: auto 0 !important; 
+  padding-left: 0 !important; 
   display: inline-flex;
-  list-style: none;
+  list-style: none !important; 
 }
 
 .code-group__nav-tab {
@@ -178,7 +179,7 @@ export default defineComponent({
 }
 
 .code-group__nav-tab-active {
-  border-bottom: var(--c-brand) 1px solid;
+  border-bottom: #3eaf7c 1px solid;
 }
 
 

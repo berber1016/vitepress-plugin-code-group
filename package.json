@@ -18,19 +18,13 @@
   },
   "license": "MIT",
   "author": "berber1016",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "files": [
     "dist"
   ],
   "main": "./dist/code-group.umd.cjs",
   "module": "./dist/code-group.js",
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/code-group.js",
-      "require": "./dist/code-group.umd.cjs"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
